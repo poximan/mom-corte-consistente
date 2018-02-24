@@ -1,96 +1,28 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "mom-corte-consistente@^1.0.0",
-        "scope": null,
-        "escapedName": "mom-corte-consistente",
-        "name": "mom-corte-consistente",
-        "rawSpec": "^1.0.0",
-        "spec": ">=1.0.0 <2.0.0",
-        "type": "range"
-      },
-      "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node\\node_modules\\mom-nucleo"
-    ],
-    [
-      {
-        "raw": "mom-corte-consistente@^1.0.8",
-        "scope": null,
-        "escapedName": "mom-corte-consistente",
-        "name": "mom-corte-consistente",
-        "rawSpec": "^1.0.8",
-        "spec": ">=1.0.8 <2.0.0",
-        "type": "range"
-      },
-      "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node"
-    ]
-  ],
-  "_from": "mom-corte-consistente@^1.0.8",
-  "_id": "mom-corte-consistente@1.0.8",
-  "_inCache": true,
-  "_location": "/mom-corte-consistente",
-  "_nodeVersion": "6.11.2",
-  "_npmOperationalInternal": {
-    "host": "s3://npm-registry-packages",
-    "tmp": "tmp/mom-corte-consistente_1.0.8_1519333464726_0.36812625893831896"
-  },
-  "_npmUser": {
-    "name": "poximan",
-    "email": "poxi_man@yahoo.com"
-  },
-  "_npmVersion": "3.10.10",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "mom-corte-consistente@^1.0.8",
-    "scope": null,
-    "escapedName": "mom-corte-consistente",
-    "name": "mom-corte-consistente",
-    "rawSpec": "^1.0.8",
-    "spec": ">=1.0.8 <2.0.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/mom-corte-consistente/-/mom-corte-consistente-1.0.8.tgz",
-  "_shasum": "98e9ecdbcb2111436d8c5da652318f73fd5ac34c",
-  "_shrinkwrap": null,
-  "_spec": "mom-corte-consistente@^1.0.8",
-  "_where": "D:\\documentos\\hugo\\Dropbox\\uni\\sist_distr\\labo\\servers\\mama_node",
-  "author": {
-    "name": "jose devia, hugo donato"
-  },
-  "dependencies": {},
-  "description": "componente de servicio para una arquitectura mom (message-oriented middleware) que brinda operacion de corte consistente al nucleo del control. basado en intercambio de mensajes con soporte de eventEmitter. su comportamiento no esta ligado al negocio (es ",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "98e9ecdbcb2111436d8c5da652318f73fd5ac34c",
-    "tarball": "https://registry.npmjs.org/mom-corte-consistente/-/mom-corte-consistente-1.0.8.tgz",
-    "fileCount": 3,
-    "unpackedSize": 6495
-  },
-  "keywords": [
-    "consistent",
-    "cuts",
-    "global",
-    "state",
-    "mom",
-    "middleware"
-  ],
-  "license": "ISC",
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "poximan",
-      "email": "poxi_man@yahoo.com"
-    }
-  ],
   "name": "mom-corte-consistente",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "version": "1.0.9",
+  "description": " Servicio de corte consistente para una arquitectura mom (message-oriented middleware).",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.8"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poximan/mom-corte-consistente.git"
+  },
+  "keywords": [
+    "corte",
+    "consistente",
+    "cuts",
+    "estado",
+    "global",
+    "mom",
+    "middleware"
+  ],
+  "author": "jose devia, hugo donato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poximan/mom-corte-consistente/issues"
+  },
+  "homepage": "https://github.com/poximan/mom-corte-consistente#readme"
 }
