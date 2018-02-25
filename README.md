@@ -34,11 +34,11 @@ var corte_consistente = require("mom-corte-consistente")(
 ```
 Con esto se solicita una instancia de modulo corte consistente. No tiene dependencias con el negocio.
 
-### Corte el proceso
+### Corte en proceso
 ```
-corte_consistente.corte_en_proceso;
+corte_consistente.corteEnProceso();
 ```
-Variable testigo para saber si esta ejecutandose (o no) un corte consistente.
+Funcion de consulta para saber si esta ejecutandose (o no) un corte consistente.
 Retorna V o F.
 
 ### Solicitud de corte

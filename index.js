@@ -19,7 +19,7 @@ module.exports = function(
   ......... corte consistente
   */
 
-  module.corte_en_proceso = false;
+  var corte_en_proceso = false;
 
   /*
   numero de respuestas que espera el servidor
@@ -36,7 +36,7 @@ module.exports = function(
   */
   bus.on("momCorte", function () {
 
-    module.corte_en_proceso = true;
+    corte_en_proceso = true;
 
     console.log("ENT: procesando pedido corte consistente");
     if(corte_resp_esperadas > 1)
@@ -60,6 +60,10 @@ module.exports = function(
     console.log("GLOBAL: comienza corte consistente");
     var msg = {mw:"momCorte"};
     bus.emit(msg.mw, null);
+  }
+
+  module.corteEnProceso = function(){
+    return corte_en_proceso;
   }
 
   var sock_respuesta;
@@ -118,7 +122,7 @@ module.exports = function(
         sock_respuesta.emit("resCorte", msg);
 
       corte_resp_recibidas = 0;
-      module.corte_en_proceso = false;
+      corte_en_proceso = false;
       canal_entrante.length = 0;
 
       console.log("INT: fin corte consistente");

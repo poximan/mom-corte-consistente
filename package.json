@@ -1,6 +1,6 @@
 {
   "name": "mom-corte-consistente",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": " Servicio de corte consistente para una arquitectura mom (message-oriented middleware).",
   "main": "index.js",
   "scripts": {
